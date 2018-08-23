@@ -10,7 +10,8 @@ Directories are created on the host to persist data for the containers to volume
     logs/nginx: The Nginx log files (error.log, access.log)
     certs: SSL certificate files (LetsEncrypt)
     certs-data: SSL challenge/response area (LetsEncrypt)
-
+    
+    attention: mysql directory must be empty for create databasess!! if this directory have any data your databasess not created.
 From the top level of the cloned repository, create the directories that will be used for managing the data on the host.
 
 $ cd wordpress-nginx-docker/
